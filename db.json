@@ -1,0 +1,172 @@
+{
+    "alunos":[
+       {
+          "id":"1",
+          "matricula":"10",
+          "nome":"CREIVERSON VIEIRA",
+          "cpf":"365.456.678-30",
+          "idEndereco":1,
+          "curso":"Computacao"
+       },
+       {
+          "id":"2",
+          "matricula":"20",
+          "nome":"JAIRO SOARES",
+          "cpf":"123.654.789-00",
+          "idEndereco":2,
+          "curso":"Computacao"
+       },
+       {
+          "id":"3",
+          "matricula":"30",
+          "nome":"KALLEB DIAS RODRIGUES  ",
+          "cpf":"365.456.678-30",
+          "idEndereco":3,
+          "curso":"Computacao"
+       },
+       {
+          "id":"4",
+          "matricula":"40",
+          "nome":"LUCAS DE ARAUJO",
+          "cpf":"365.456.678-30",
+          "idEndereco":4,
+          "curso":"Computacao"
+       },
+       {
+          "id":"5",
+          "matricula":"50",
+          "nome":"MARCIO BIZERRA",
+          "cpf":"365.456.678-30",
+          "idEndereco":5,
+          "curso":"Computacao"
+       },
+       {
+          "id":"6",
+          "matricula":"25464",
+          "nome":"ALYSON JONAS",
+          "cpf":"052.458.456-98",
+          "idEndereco":3,
+          "curso":"Ciencia da Computacao"
+       }
+    ],
+    "professores":[
+        {
+           "id":1,
+           "matricula":201720,
+           "nome":"Demetrio Mestre",
+           "curso":"Computacao",
+           "idEnderedo":7
+        },
+        {
+           "id":2,
+           "matricula":201720,
+           "nome":"Jucelio Santos",
+           "curso":"Matematica",
+           "idEnderedo":6
+        },
+        {
+           "id":3,
+           "matricula":182589,
+           "nome":"Janderson Jason",
+           "curso":"Computacao",
+           "idEnderedo":9
+        }
+    ],
+    "projetos":[
+        {
+           "id":1,
+           "tituloProjeto":"Projeto de Sistemas",
+           "areaProjeto":"Desenvolvimento Web",
+           "resumo":"Analise e Projeto de sistemas para WEB",
+           "palavraChave1":"analise",
+           "palavraChave2":"palavra 2",
+           "palavraChave3":"projeto",
+           "url":"http://uepb.edu.br",
+           "idProfessorResponsavel":1,
+           "idAlunoParticipante":1
+        },
+        {
+           "id":4,
+           "tituloProjeto":"WEB II",
+           "areaProjeto":"Desenvolvimento Web",
+           "resumo":"resumo desenvolvimento web",
+           "palavraChave1":"palavra 1",
+           "palavraChave2":"palavra 2",
+           "palavraChave3":"palavra 3",
+           "url":"http://uepb.edu.br",
+           "idProfessorResponsavel":1,
+           "idAlunoParticipante":1
+        },
+        {
+           "id":5,
+           "tituloProjeto":"Projeto de Sistemas",
+           "areaProjeto":"Desenvolvimento Web",
+           "resumo":"Analise e Projeto de sistemas para WEB",
+           "palavraChave1":"analise",
+           "palavraChave2":"palavra 2",
+           "palavraChave3":"projeto",
+           "url":"http://uepb.edu.br",
+           "idProfessorResponsavel":1,
+           "idAlunoParticipante":1
+        },
+        {
+           "id":7,
+           "tituloProjeto":"Projeto de Sistemas",
+           "areaProjeto":"Desenvolvimento Web",
+           "resumo":"Analise e Projeto de sistemas para WEB",
+           "palavraChave1":"analise",
+           "palavraChave2":"palavra 2",
+           "palavraChave3":"projeto",
+           "url":"http://uepb.edu.br",
+           "idProfessorResponsavel":1,
+           "idAlunoParticipante":1
+        }
+    ],
+    "enderecos": [
+        {
+          "id": 1,
+          "rua":  "não da certo",
+          "numero": "123" ,
+          "cep": "50000",
+          "cidade": "lista",
+          "estado": "lista",
+          "pais": "pais"
+        },
+        {
+          "id": 2,
+          "rua":  "não da certo",
+          "numero": "123" ,
+          "cep": "50000",
+          "cidade": "lista",
+          "estado": "lista",
+          "pais": "pais"
+        },
+        {
+          "id": 3,
+          "rua":  "não da certo",
+          "numero": "123" ,
+          "cep": "50000",
+          "cidade": "lista",
+          "estado": "lista",
+          "pais": "pais"
+        },
+        {
+          "id": 4,
+          "rua":  "não da certo",
+          "numero": "123" ,
+          "cep": "50000",
+          "cidade": "lista",
+          "estado": "lista",
+          "pais": "pais"
+        },
+        {
+          "id": 5,
+          "rua":  "não da certo",
+          "numero": "123" ,
+          "cep": "50000",
+          "cidade": "lista",
+          "estado": "lista",
+          "pais": "pais"
+        }
+    ]
+ }
