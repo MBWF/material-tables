@@ -109,14 +109,16 @@ export function StudentPage() {
             <TableAction
               actionName="Edit"
               onClick={() => {
-                console.log(adresses);
+
                 handleOpen();
                 setSelectedStudent(student);
                 handleSetFields(student);
-                setCurrentAdress({
-                  label: "Rua 01",
-                  value: student.idEndereco,
-                });
+
+                const current = adresses.filter(
+                  (address) => address.value === student.idEndereco
+                )[0];
+
+                setCurrentAdress(current);
               }}
             />
             <TableAction

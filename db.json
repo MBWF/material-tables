@@ -2,9 +2,10 @@
   "alunos": [
     {
       "matricula": "20",
-      "nome": "JAIRO SOARES",
+      "nome": "Test",
       "cpf": "123.654.789-00",
       "curso": "Computacao",
+      "idEndereco": 5,
       "id": "2"
     },
     {
@@ -12,6 +13,7 @@
       "nome": "KALLEB",
       "cpf": "365.456.678-30",
       "curso": "Computacao",
+      "idEndereco": 5,
       "id": "3"
     },
     {
@@ -21,14 +23,6 @@
       "idEndereco": 1,
       "curso": "Computacao",
       "id": "4"
-    },
-    {
-      "id": "5",
-      "matricula": "50",
-      "nome": "MARCIO BIZERRA",
-      "cpf": "365.456.678-30",
-      "idEndereco": 5,
-      "curso": "Computacao"
     },
     {
       "matricula": "25464",
@@ -43,14 +37,15 @@
       "nome": "Solution Master",
       "cpf": "106.103.614-65",
       "curso": "CASDEX",
+      "idEndereco": 5,
       "id": "9TZ0knm"
     },
     {
-      "matricula": "asdasd",
-      "nome": "Márcio",
-      "cpf": "106.103.614-65",
-      "curso": "CASDEX",
-      "id": "mKhJcu5"
+      "matricula": "11111",
+      "nome": "Jairo Soares",
+      "cpf": "117.448.234-64",
+      "curso": "Ciência da Computação",
+      "id": "K-8sX_c"
     }
   ],
   "professores": [

@@ -59,15 +59,12 @@ export function Table({
           />
         ),
       }}
-      pagination
       responsive
       highlightOnHover
       noDataComponent={noDataMessage}
       selectableRows={isSelectableRows}
       selectableRowsHighlight={isSelectableRows}
       defaultSortFieldId={null}
-      paginationPerPage={25}
-      paginationRowsPerPageOptions={[25, 50, 100]}
       customStyles={{
         rows: {
           highlightOnHoverStyle: {
