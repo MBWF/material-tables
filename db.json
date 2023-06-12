@@ -123,35 +123,26 @@
   ],
   "enderecos": [
     {
-      "id": 1,
       "rua": "Rua 01",
-      "numero": "123",
-      "cep": "50000",
+      "numero": "321",
+      "cep": "6000",
       "cidade": "lista",
       "estado": "lista",
-      "pais": "pais"
+      "pais": "pais",
+      "id": 1
     },
     {
-      "id": 2,
       "rua": "Rua 02",
-      "numero": "123",
+      "numero": "321",
       "cep": "50000",
       "cidade": "lista",
       "estado": "lista",
-      "pais": "pais"
+      "pais": "pais",
+      "id": 2
     },
     {
       "id": 3,
       "rua": "Rua 03",
-      "numero": "123",
-      "cep": "50000",
-      "cidade": "lista",
-      "estado": "lista",
-      "pais": "pais"
-    },
-    {
-      "id": 4,
-      "rua": "Rua 04",
       "numero": "123",
       "cep": "50000",
       "cidade": "lista",

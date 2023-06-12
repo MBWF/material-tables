@@ -2,11 +2,15 @@
 
 import { Route, Routes as AllRoutes } from "react-router-dom";
 import { StudentPage } from "../page/Student";
+import { AdressPage } from "../page/Edress";
 
 export function Routes() {
   return (
-    <AllRoutes>
-      <Route path="aluno" element={<StudentPage />} />
-    </AllRoutes>
+    <>
+      <AllRoutes>
+        <Route path="alunos" element={<StudentPage />} />
+        <Route path="enderecos" element={<AdressPage />} />
+      </AllRoutes>
+    </>
   );
 }

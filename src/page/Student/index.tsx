@@ -109,7 +109,6 @@ export function StudentPage() {
             <TableAction
               actionName="Edit"
               onClick={() => {
-
                 handleOpen();
                 setSelectedStudent(student);
                 handleSetFields(student);
