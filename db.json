@@ -1,22 +1,6 @@
 {
   "alunos": [
     {
-      "matricula": "20",
-      "nome": "Test",
-      "cpf": "123.654.789-00",
-      "curso": "Computacao",
-      "idEndereco": 5,
-      "id": "2"
-    },
-    {
-      "matricula": "30",
-      "nome": "KALLEB",
-      "cpf": "365.456.678-30",
-      "curso": "Computacao",
-      "idEndereco": 5,
-      "id": "3"
-    },
-    {
       "matricula": "40",
       "nome": "LUCAS DE ARAUJO",
       "cpf": "365.456.678-30",
@@ -44,8 +28,9 @@
       "matricula": "11111",
       "nome": "Jairo Soares",
       "cpf": "117.448.234-64",
+      "idEndereco": 6,
       "curso": "Ciência da Computação",
-      "id": "K-8sX_c"
+      "id": "gKoXzvi"
     }
   ],
   "professores": [
@@ -157,6 +142,15 @@
       "cidade": "lista",
       "estado": "lista",
       "pais": "pais"
+    },
+    {
+      "cep": "58600-000",
+      "cidade": "Santa Luzia",
+      "estado": "Paraíba",
+      "numero": "145B",
+      "pais": "Brazil",
+      "rua": "Nezinho Medeiros",
+      "id": 6
     }
   ]
 }

@@ -38,14 +38,14 @@ export function NewStudentModal({
   adresses,
 }: NewStudentModalType) {
   const { register, handleSubmit } = useForm<AddInputsType>();
-  const [currentAdress, setCurrentAdress] = useState<any>(null);
+  const [currentAdress, setCurrentAdress] = useState<SelectType | null>(null);
 
   const addSubmit: SubmitHandler<AddInputsType> = async (data) => {
     const response = await api.post("/alunos", {
       matricula: String(data.enroll),
       nome: data.name,
       cpf: data.cpf,
-      idEndereco: currentAdress?.id,
+      idEndereco: currentAdress?.value,
       curso: data.course,
     });
 

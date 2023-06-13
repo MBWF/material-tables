@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 import { baseTheme } from "./styles/baseTheme";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { StudentPage } from "./page/Student/index.tsx";
-import { AdressPage } from "./page/Edress/index.tsx";
+import { AdressPage } from "./page/Adress/index.tsx";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +13,10 @@ const router = createBrowserRouter([
   },
   {
     path: "/enderecos",
+    element: <AdressPage />,
+  },
+  {
+    path: "/projetos",
     element: <AdressPage />,
   },
 ]);

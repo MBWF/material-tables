@@ -41,7 +41,7 @@ export function StudentPage() {
 
   const [studentData, setStudentData] = useState<AlunoType[]>([]);
   const [selectedStudent, setSelectedStudent] = useState<AlunoType>();
-  const [currentAdress, setCurrentAdress] = useState<any>(null);
+  const [currentAdress, setCurrentAdress] = useState<SelectType | null>(null);
   const [adresses, setAdresses] = useState<SelectType[]>([]);
 
   const { register, handleSubmit, setValue } = useForm<EditInputsType>();
@@ -103,30 +103,34 @@ export function StudentPage() {
     {
       id: "maintenance",
       name: "Manutenção",
-      selector: useCallback((student: AlunoType) => {
-        return (
-          <Box component="span">
-            <TableAction
-              actionName="Edit"
-              onClick={() => {
-                handleOpen();
-                setSelectedStudent(student);
-                handleSetFields(student);
+      selector: useCallback(
+        (student: AlunoType) => {
+          return (
+            <Box component="span">
+              <TableAction
+                actionName="Edit"
+                onClick={() => {
+                  handleOpen();
+                  setSelectedStudent(student);
+                  handleSetFields(student);
 
-                const current = adresses.filter(
-                  (address) => address.value === student.idEndereco
-                )[0];
+                  console.log(adresses);
+                  const current = adresses.filter(
+                    (address) => address.value === student.idEndereco
+                  )[0];
 
-                setCurrentAdress(current);
-              }}
-            />
-            <TableAction
-              actionName="Delete"
-              onClick={() => getDeleteStudent(student.id)}
-            />
-          </Box>
-        ) as any;
-      }, []),
+                  setCurrentAdress(() => current);
+                }}
+              />
+              <TableAction
+                actionName="Delete"
+                onClick={() => getDeleteStudent(student.id)}
+              />
+            </Box>
+          ) as any;
+        },
+        [adresses, getDeleteStudent, handleSetFields]
+      ),
       sortable: false,
       width: "20%",
       center: true,
@@ -134,11 +138,14 @@ export function StudentPage() {
   ];
 
   const editSubmit: SubmitHandler<EditInputsType> = async (data) => {
+    if (!currentAdress?.value) {
+      return;
+    }
     const response = await api.put(`/alunos/${selectedStudent?.id}`, {
       matricula: String(data.enroll),
       nome: data.name,
       cpf: data.cpf,
-      idEndereco: currentAdress?.id,
+      idEndereco: currentAdress?.value,
       curso: data.course,
     });
 
@@ -157,6 +164,9 @@ export function StudentPage() {
     getAdresses();
   }, []);
 
+  if (adresses.length === 0 && studentData) {
+    return <span>loader...</span>;
+  }
   return (
     <>
       <Box

@@ -54,7 +54,7 @@ export function AdressPage() {
     const response = await api.delete(`/enderecos/${enderecoId}`);
 
     if (response.status === 200) {
-      window.alert("Estudante deletado com sucesso.");
+      window.alert("Endereco deletado com sucesso.");
       getEndereco();
     }
   };
@@ -168,7 +168,7 @@ export function AdressPage() {
         gap="2rem"
       >
         <Button variant="contained" onClick={handleOpenModal}>
-          Adicionar Aluno
+          Adicionar Endereco
         </Button>
         <Table data={studentData} columns={enderecoTableColumns} />
       </Box>
