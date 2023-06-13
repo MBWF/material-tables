@@ -26,7 +26,7 @@ export type ProfessorType = {
   id: number;
   matricula: number;
   nome: string;
-  endereco: EnderecoType;
+  idEndereco: number;
   curso: string;
 };
 

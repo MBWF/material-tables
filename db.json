@@ -35,25 +35,25 @@
   ],
   "professores": [
     {
-      "id": 1,
-      "matricula": 201720,
-      "nome": "Demetrio Mestre",
+      "nome": "Demetrio Mestre ",
+      "matricula": "2017202",
+      "idEndereco": 6,
       "curso": "Computacao",
-      "idEnderedo": 7
+      "id": 1
     },
     {
-      "id": 2,
-      "matricula": 201720,
       "nome": "Jucelio Santos",
+      "matricula": "201720",
+      "idEndereco": 1,
       "curso": "Matematica",
-      "idEnderedo": 6
+      "id": 2
     },
     {
       "id": 3,
-      "matricula": 182589,
+      "matricula": 123,
       "nome": "Janderson Jason",
       "curso": "Computacao",
-      "idEnderedo": 9
+      "idEndereco": 1
     }
   ],
   "projetos": [

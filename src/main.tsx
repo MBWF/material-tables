@@ -5,6 +5,7 @@ import { baseTheme } from "./styles/baseTheme";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { StudentPage } from "./page/Student/index.tsx";
 import { AdressPage } from "./page/Adress/index.tsx";
+import { TeacherPage } from "./page/Teacher/index.tsx";
 
 const router = createBrowserRouter([
   {
@@ -16,8 +17,8 @@ const router = createBrowserRouter([
     element: <AdressPage />,
   },
   {
-    path: "/projetos",
-    element: <AdressPage />,
+    path: "/professores",
+    element: <TeacherPage />,
   },
 ]);
 
