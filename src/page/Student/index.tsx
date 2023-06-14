@@ -114,7 +114,6 @@ export function StudentPage() {
                   setSelectedStudent(student);
                   handleSetFields(student);
 
-                  console.log(adresses);
                   const current = adresses.filter(
                     (address) => address.value === student.idEndereco
                   )[0];

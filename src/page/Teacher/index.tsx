@@ -120,7 +120,6 @@ export function TeacherPage() {
                   setSelectedStudent(props);
                   handleSetFields(props);
 
-                  console.log(adresses);
                   const current = adresses.filter(
                     (address) => address.value === props.idEndereco
                   )[0];

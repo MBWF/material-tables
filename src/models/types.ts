@@ -33,11 +33,12 @@ export type ProfessorType = {
 export type ProjetoType = {
   id: number;
   titulo: string;
-  professor: ProfessorType;
+  idProfessor: number;
+  idAluno: number;
   area: string;
   resumo: string;
-  palavra_chave_01: string;
-  palavra_chave_02: string;
-  palavra_chave_03: string;
-  url_documento: string;
+  palavraChave1: string;
+  palavraChave2: string;
+  palavraChave3: string;
+  url: string;
 };

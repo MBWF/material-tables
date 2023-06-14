@@ -6,7 +6,7 @@
       "cpf": "365.456.678-30",
       "idEndereco": 1,
       "curso": "Computacao",
-      "id": "4"
+      "id": "2"
     },
     {
       "matricula": "25464",
@@ -22,7 +22,7 @@
       "cpf": "106.103.614-65",
       "curso": "CASDEX",
       "idEndereco": 5,
-      "id": "9TZ0knm"
+      "id": "1"
     },
     {
       "matricula": "11111",
@@ -58,52 +58,52 @@
   ],
   "projetos": [
     {
-      "id": 1,
-      "tituloProjeto": "Projeto de Sistemas",
-      "areaProjeto": "Desenvolvimento Web",
+      "titulo": "Projeto de Sistemas",
       "resumo": "Analise e Projeto de sistemas para WEB",
       "palavraChave1": "analise",
       "palavraChave2": "palavra 2",
       "palavraChave3": "projeto",
+      "area": "Desenvolvimento Web",
       "url": "http://uepb.edu.br",
-      "idProfessorResponsavel": 1,
-      "idAlunoParticipante": 1
+      "idAluno": "2",
+      "idProfessor": 1,
+      "id": 1
     },
     {
-      "id": 4,
-      "tituloProjeto": "WEB II",
-      "areaProjeto": "Desenvolvimento Web",
+      "titulo": "WEB III",
       "resumo": "resumo desenvolvimento web",
       "palavraChave1": "palavra 1",
       "palavraChave2": "palavra 2",
       "palavraChave3": "palavra 3",
-      "url": "http://uepb.edu.br",
-      "idProfessorResponsavel": 1,
-      "idAlunoParticipante": 1
+      "area": "Desenvolvimento Web",
+      "url": "http://localhost:5173/projetos",
+      "idAluno": "6",
+      "idProfessor": "2",
+      "id": 4
     },
     {
       "id": 5,
-      "tituloProjeto": "Projeto de Sistemas",
-      "areaProjeto": "Desenvolvimento Web",
+      "titulo": "Projeto de Sistemas",
+      "area": "Desenvolvimento Web",
       "resumo": "Analise e Projeto de sistemas para WEB",
       "palavraChave1": "analise",
       "palavraChave2": "palavra 2",
       "palavraChave3": "projeto",
       "url": "http://uepb.edu.br",
-      "idProfessorResponsavel": 1,
-      "idAlunoParticipante": 1
+      "idProfessor": 1,
+      "idAluno": 2
     },
     {
-      "id": 7,
-      "tituloProjeto": "Projeto de Sistemas",
-      "areaProjeto": "Desenvolvimento Web",
+      "titulo": "Projeto de Sistemas",
       "resumo": "Analise e Projeto de sistemas para WEB",
       "palavraChave1": "analise",
       "palavraChave2": "palavra 2",
       "palavraChave3": "projeto",
+      "area": "Desenvolvimento Web",
       "url": "http://uepb.edu.br",
-      "idProfessorResponsavel": 1,
-      "idAlunoParticipante": 1
+      "idAluno": "1",
+      "idProfessor": 2,
+      "id": 7
     }
   ],
   "enderecos": [
